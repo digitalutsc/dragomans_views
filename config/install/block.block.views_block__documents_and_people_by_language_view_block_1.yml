@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.documents_and_people_by_language_view
+  module:
+    - node
+    - views
+  theme:
+    - carapace
+id: views_block__documents_and_people_by_language_view_block_1
+theme: carapace
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:documents_and_people_by_language_view-block_1'
+settings:
+  id: 'views_block:documents_and_people_by_language_view-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      language: language
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
