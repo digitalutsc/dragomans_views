@@ -5,6 +5,9 @@ dependencies:
     - node.type.document
     - node.type.event
     - node.type.person
+  enforced:
+    module:
+      - dragomans_views
   module:
     - node
     - user

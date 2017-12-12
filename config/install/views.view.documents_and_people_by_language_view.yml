@@ -4,6 +4,9 @@ dependencies:
   config:
     - node.type.document
     - node.type.person
+  enforced:
+    module:
+      - dragomans_views
   module:
     - node
     - user

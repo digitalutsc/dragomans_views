@@ -3,6 +3,9 @@ status: true
 dependencies:
   config:
     - views.view.people_by_eventtype_view
+  enforced:
+    module:
+      - dragomans_views
   module:
     - node
     - views

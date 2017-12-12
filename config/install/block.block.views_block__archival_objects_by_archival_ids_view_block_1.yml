@@ -3,6 +3,9 @@ status: true
 dependencies:
   config:
     - views.view.archival_objects_by_archival_ids_view
+  enforced:
+    module:
+      - dragomans_views
   module:
     - node
     - views

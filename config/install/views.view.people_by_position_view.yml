@@ -4,6 +4,9 @@ dependencies:
   config:
     - field.storage.node.field_source_person
     - node.type.personpositionrelation
+  enforced:
+    module:
+      - dragomans_views
   module:
     - node
     - user

@@ -3,6 +3,9 @@ status: true
 dependencies:
   config:
     - views.view.nodes_by_places_view
+  enforced:
+    module:
+      - dragomans_views
   module:
     - node
     - views

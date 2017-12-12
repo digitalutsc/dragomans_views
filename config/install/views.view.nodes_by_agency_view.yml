@@ -6,6 +6,9 @@ dependencies:
     - node.type.event
     - node.type.person
     - node.type.personpositionrelation
+  enforced:
+    module:
+      - dragomans_views
   module:
     - node
     - user

@@ -3,6 +3,9 @@ status: true
 dependencies:
   config:
     - views.view.documents_by_genre_view
+  enforced:
+    module:
+      - dragomans_views
   module:
     - node
     - views

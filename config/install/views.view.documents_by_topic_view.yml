@@ -3,6 +3,9 @@ status: true
 dependencies:
   config:
     - node.type.document
+  enforced:
+    module:
+      - dragomans_views
   module:
     - node
     - user
